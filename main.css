@@ -140,7 +140,7 @@ footer a{
 	background:rgba(45, 110, 112, .9);
 	border-radius: 10px; 
 }
-@media (min-width: 320px) { 
+@media (max-width: 320px) { 
 	header{
 		background:rgba(45, 110, 112, .9);
 	}
