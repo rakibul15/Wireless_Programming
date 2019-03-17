@@ -1,8 +1,6 @@
-body {
-	background: black;
-}
+
 header{
-    padding: 20px 0px;
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -22,21 +20,26 @@ header::before {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52) 0%, rgba(0, 0, 0, 0.15) 70%, rgba(255, 255, 255, 0) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0);
 }
-.navbar {
+.navbar-dark{
 	border-bottom: 1px solid #bfbfbf;
 	padding: 18px 0px;
+}
+.fa-wallet{
+	font-size: 40px;
+	color: #6fb048;
 }
 .main_area{
     background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
     height:100vh;
-    position: relative;
+	position: relative;
+	padding-bottom: 20px;
 }
 .main_area::before {
 	position: absolute;
 	content: '';
-	background-color: rgba(45, 110, 112, .8);
+	background-color: rgba(45, 110, 112, .7);
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -50,8 +53,8 @@ header::before {
 
 .nav-link {
 	color: #bfbfbf;
-	font-family: 'Josefin Sans', sans-serif;
-	text-transform: uppercase;
+	font-family: 'Josefin Sans';
+	text-transform:initial;
 }
 
 
@@ -64,8 +67,8 @@ header::before {
 	border-radius: 3px !important;
 	color: #bfbfbf !important;
 	background: rgba(255, 255, 255, 0.35) !important;
-	padding: 7px 18px;
-	text-transform: uppercase;
+	padding: 5px 10px;
+	text-transform: initial;
 }
 
 .get_started:hover {
@@ -74,8 +77,9 @@ header::before {
 
 
 
-h1{
-    color: white;
+h1,h2,p{
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
 }
 footer{
     background-color:  #141C1C;
@@ -89,4 +93,50 @@ footer a{
 	color: #bfbfbf !important;
 	font-family: 'Josefin Sans', sans-serif;
     
+}
+
+#p_head{
+	text-decoration: underline;
+	padding: 30px 0px;
+}
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgba(45, 110, 112, .9);
+  }
+  .main_area2{
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    height:70vh;
+	position: relative;
+	padding-bottom: 20px;
+}
+.main_area2::before {
+	position: absolute;
+	content: '';
+	background-color: rgba(45, 110, 112, .7);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+.p_obj{
+	background-color: rgba(45, 110, 112, .9);
+	padding: 20px 0px;
+}
+.details{
+	padding: 20px 0px;
+}
+.feature{
+	padding: 40px 0px;
+}
+.p_objective, .why_use{
+	padding: 20px;
+	background:rgba(45, 110, 112, .9);
+	border-radius: 10px; 
 }

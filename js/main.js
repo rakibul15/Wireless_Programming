@@ -1,9 +1,13 @@
-$('#topbar').scrollupbar();
+window.onscroll = function() {myFunction()};
 
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+
+  } else {
+    header.classList.remove("sticky");
   }
-  
-  function closeNav() {
-    document.getElementById("navbar").style.height = "0%";
-  }
+}
