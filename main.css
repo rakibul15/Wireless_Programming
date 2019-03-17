@@ -140,3 +140,24 @@ footer a{
 	background:rgba(45, 110, 112, .9);
 	border-radius: 10px; 
 }
+@media (min-width: 576px) { 
+	header{
+		background:rgba(45, 110, 112, .9);
+	}
+ }
+
+@media (min-width: 768px) { 
+	header{
+		background:rgba(45, 110, 112, .9);
+	}
+ }
+ @media (min-width: 992px) {
+	header{
+		background:none;
+	}
+	 
+  }
+
+
+
+
