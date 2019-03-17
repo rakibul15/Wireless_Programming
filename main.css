@@ -32,12 +32,11 @@ header::before {
 	background-repeat: no-repeat;
     height:100vh;
     position: relative;
-    background-image: url(/images/main_area.jpg);
 }
 .main_area::before {
 	position: absolute;
 	content: '';
-	background-color: rgba(45, 110, 112, .7);
+	background-color: rgba(45, 110, 112, .8);
 	top: 0;
 	bottom: 0;
 	left: 0;
