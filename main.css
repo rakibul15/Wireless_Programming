@@ -142,23 +142,33 @@ footer a{
 }
 @media (max-width: 320px) { 
 	header{
-		background:rgba(45, 110, 112, .9);
+
+		position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(45, 110, 112, .9);
 	}
  }
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
 	header{
-		background:rgba(45, 110, 112, .9);
+		background-color:rgba(45, 110, 112, .9);
 	}
  }
 
-@media (min-width: 768px) { 
+@media (max-width: 768px) { 
 	header{
-		background:rgba(45, 110, 112, .9);
+		background-color:rgba(45, 110, 112, .9);
 	}
  }
- @media (min-width: 992px) {
+ @media (max-width: 992px) {
 	header{
-		background:none;
+		background-color:background-color:rgba(45, 110, 112, .9);
+	}
+	 
+  }
+  @media (min-width: 992px) {
+	header{
+		background-color:none;
 	}
 	 
   }
