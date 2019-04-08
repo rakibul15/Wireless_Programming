@@ -139,6 +139,13 @@ footer a{
 	padding: 20px;
 	background:rgba(45, 110, 112, .9);
 	border-radius: 10px; 
+
+}
+.group{
+	width: 100%;
+}
+h5{
+	color: #fff;
 }
 @media (max-width: 320px) { 
 	header{
