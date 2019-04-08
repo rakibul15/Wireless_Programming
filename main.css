@@ -147,6 +147,9 @@ footer a{
 h5{
 	color: #fff;
 }
+.viw{
+	z-index: 999;
+}
 @media (max-width: 320px) { 
 	header{
 
